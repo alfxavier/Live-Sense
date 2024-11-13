@@ -67,4 +67,4 @@ Este projeto é licenciado sob a [MIT License](LICENSE).
 
 ## Contato
 
-Desenvolvido por [Seu Nome](https://github.com/alfxavier). Entre em contato para dúvidas ou sugestões.
+Desenvolvido por [André Xavier](https://github.com/alfxavier). Entre em contato para dúvidas ou sugestões.
