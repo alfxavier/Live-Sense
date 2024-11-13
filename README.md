@@ -14,7 +14,7 @@ Live-Sense é um painel de monitoramento em tempo real desenvolvido para visuali
 - **HTML/CSS**: Interface e estilo do painel.
 - **JavaScript**: Manipulação de dados e interação com o FROST-Server.
 - **Chart.js**: Visualização de gráficos históricos.
-- **FROST-Server**: Back-end para armazenamento e consulta de dados dos sensores.
+- [**FROST-Server**](https://github.com/FraunhoferIOSB/FROST-Server): Back-end para armazenamento e consulta de dados dos sensores.
 
 ## Instalação e Configuração
 
