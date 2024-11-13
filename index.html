@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Sensores</title>
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Painel de Sensores</h1>
+        
+        <div class="sensor-container">
+            <div class="sensor" id="temperature">
+                <label>Temperatura (°C)</label>
+                <div class="progress-bar">
+                    <div class="progress" id="tempBar"></div>
+                </div>
+            </div>
+            <div class="sensor" id="humidity">
+                <label>Umidade (%)</label>
+                <div class="progress-bar">
+                    <div class="progress" id="humBar"></div>
+                </div>
+            </div>
+            <div class="sensor" id="battery">
+                <label>Bateria (%)</label>
+                <div class="progress-bar">
+                    <div class="progress" id="batBar"></div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="update-info">
+            <p id="lastUpdate">Última atualização: --/--/---- --:--:--</p>
+            <button onclick="updateData()">Atualizar Agora</button>
+        </div>
+        
+        <div class="chart-container">
+            <canvas id="sensorChart"></canvas>
+        </div>
+    </div>
+
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
